@@ -1,0 +1,52 @@
+body{
+	background-image: url("assets/Pranks Twine/MuderClownHeartPeltTwine.gif");
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+#header{
+	display: flex;
+	justify-content: space-between;
+	top:0px;
+}
+
+
+.claps{
+	color: white;
+	-webkit-text-stroke: 3px black;
+	font-size: 100px;
+}
+
+.hands{
+	position: relative;
+	text-align: center;
+}
+
+#sex{
+	position: absolute;
+	top: 0px;
+	left: 160px;
+	
+}
+
+#murder{
+	position: absolute;
+	top: 0px;
+	right: 130px;
+}
+
+.comment{
+	font-size: 30px;
+	color: white;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	text-shadow: 2px 3px black;
+}
+
+#comments{
+	
+}
+
+#player{
+	
+}

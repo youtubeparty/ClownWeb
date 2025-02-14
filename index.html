@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+
+		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<title>Clown</title>
+	</head>
+	<body onLoad="startUp()">
+		<div id="header">
+			<div class="hands">
+				<img src="assets/clap.png">
+				<p class="claps" id="sex"></p>
+			</div>
+			<div class="hands">
+				<img src="assets/clap.png">
+				<p class="claps" id="murder"></p>
+			</div>	
+		</div>
+		<div id="comments">
+			
+		
+		</div>
+		<audio id="player" autoplay onEnded="nextSong();">
+			<source src="assets/intro.wav">
+		</audio>
+		
+		<script src="script.js"></script>
+	</body>
+
+</html>
